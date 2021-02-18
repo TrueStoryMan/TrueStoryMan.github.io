@@ -1,1 +1,0 @@
-jQuery('body').append('<a id="3" target="_blank" href="https://www.youtube.com/watch?v=KmTK8kub_gw&t=2110s"><h3>Прокидайся, козаче</h3></a>');

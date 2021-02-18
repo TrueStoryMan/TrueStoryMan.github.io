@@ -72,7 +72,7 @@ a:hover{border: 2px solid palevioletred;}
 /*Виділення за атрибутом*/
 a[href = "../index.html"]{color: #e81264;}
 
-/*CSS-селектори дочірніх елементів */
+/*CSS-селектори дочірніх елементів*/
 li a{text-decoration: underline overline;}
 
 ul + p {color: red;}
