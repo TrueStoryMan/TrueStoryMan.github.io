@@ -81,7 +81,8 @@ caption {
     border-top: none;
     border-bottom: none;
 }
-.intable5 tr {border: 2px solid #eb08cc;}
+.intable5 tr {border: 3px solid #eb08cc;}
+
 .table5 td {width: 250px;}
 .table5 .Data {
     text-align: center;
@@ -108,7 +109,7 @@ caption {
 /*************************************/
 .table8 { border: 2px solid #37beb3;}
 .table8 td {border: 2px solid #71dbd2;}
-.table8 caption {caption-side: top;}
+.table8 > caption {caption-side: top;}
 
 .intable1 {border-collapse: collapse;}
 .intable1 td {border: 3px solid #d517db;}
@@ -119,6 +120,10 @@ caption {
 div.lab3 {
     display: flex;
     justify-content: center;
+}
+div.media {
+    text-align: center;
+    margin: 0 auto;
 }
 .table_mates {
     border-collapse: collapse;
@@ -133,7 +138,7 @@ div.lab3 {
 .lab3 img {margin-bottom: -4px;}
 .lab3 iframe {
     width: 1285px;
-    min-height: 150px;
+    height: 150px;
     border: none;
 }
 
