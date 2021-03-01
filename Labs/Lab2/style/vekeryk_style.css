@@ -81,6 +81,7 @@ caption {
     border-top: none;
     border-bottom: none;
 }
+.intable5 tr {border: 2px solid #eb08cc;}
 .table5 td {width: 250px;}
 .table5 .Data {
     text-align: center;
