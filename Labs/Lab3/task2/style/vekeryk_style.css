@@ -1,0 +1,39 @@
+body {
+    background-color: #d5f3e7;
+}
+
+div {
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    text-align: justify; 
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.paragraph1 {
+    text-indent: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    border: double #ffed47;
+}
+
+.paragraph2 {
+    text-indent: 15px;
+    background-color: #ffed47;
+    color: #000000;
+    border: dashed #000000;
+    margin-left: 60px;
+}
+
+.paragraph3 {
+    text-indent: 20px;
+    background-color: #ff6347;
+    color: #ffffff;
+    border: dotted #ffffff;
+    margin-left: 120px;
+}
