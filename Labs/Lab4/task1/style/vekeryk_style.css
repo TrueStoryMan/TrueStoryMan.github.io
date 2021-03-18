@@ -3,7 +3,7 @@ html, body {
     width: 100%; 
     margin: 0;
     overflow-y:hidden;
-    background-color: #FFFFF7;
+    background-color: white;
 }
 body > div {
     margin: 0 auto;
@@ -103,6 +103,7 @@ span {
     font-size: 35px;
     color: white;
     font-weight: bold;
+    text-shadow: 3px 4px 4px black;
 }
 .logotext {
     margin: 0;
@@ -117,7 +118,8 @@ span {
     font-weight: bold;
     margin-top: 42px;
     margin-right: 20px;
-    color: #f7f3f3;
+    color: white;
+    text-shadow: 3px 4px 4px black;
 }
 p {
     margin: 0;
@@ -135,5 +137,6 @@ a {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    color: #f7f3f3;
+    color: white;
+    text-shadow: 3px 4px 4px black;
 } 
