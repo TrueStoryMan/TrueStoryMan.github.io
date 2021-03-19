@@ -1,0 +1,65 @@
+body.example1 {
+    display: block;
+    background: url(../img/attackbg.jpg) no-repeat top center;
+    background-size: 1920px 2118px;
+    height: 2100px;
+}
+div {
+    float: left;
+    width: 310px;
+    height: 600px;
+}
+img {
+    width: 310px;
+}
+.img1 {
+    position: static;
+    top: 300px;
+}
+.img2 {
+    margin-top: 150px;
+    margin-left: 200px;
+    position: sticky;
+    top: 0;
+}
+.img3 {
+    position: relative;
+    right: 750px;
+    top: 750px;
+}
+.img4 {
+    position: absolute;
+    left: 950px;
+    top: 650px
+}
+.img5 {
+    position: fixed;
+    top: 400px;
+    right: 20px;
+}
+.img6 {
+    position: inherit;
+    left: 1100px;
+}
+.img7 {
+    position: initial;
+    top: 300px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-bottom: none;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+p {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius:  0px 0px 12px 12px;
+    font-style: italic;
+    font-weight: bold;
+}
