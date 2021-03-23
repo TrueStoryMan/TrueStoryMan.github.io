@@ -1,0 +1,41 @@
+body {
+    background: #fffbfe;
+}
+div {
+    background-color: #fffcfa;
+    font-family: monospace;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+}
+hr {
+    position: relative;
+    clear: both;
+    top: 5px;
+}
+span {
+    color: red;
+    font-style: italic;
+}
+.div1 {
+    float: left;
+    width: 200px;
+    line-height: 200px;
+    border: 10px solid red;
+    margin-right: 5px;
+}
+.div2 {
+    float: right;
+    width: 300px;
+    line-height: 600px;
+    border: 10px solid black;
+}
+p {
+    margin-left: 5px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p1 {clear: both;}
+.p2 {clear: left;}
+.p3 {clear: right;}

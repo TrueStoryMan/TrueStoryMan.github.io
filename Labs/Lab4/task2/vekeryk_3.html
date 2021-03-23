@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/vekeryk_style3.css">
+        <title>clear</title>
+    </head>
+<body>
+<div class="div1">float:left</div>
+<p>До цього абзацу <span>не застосовано</span> властивостей clear.<br>
+    Тому він позиціонується залежно від значення float сусідніх елементів</p>
+    <hr>
+<div class="div1">float:left</div>
+<div class="div2">float:right</div>
+<p class="p1">До цього абзацу застосовано властивість <span>clear: both</span>.<br>
+    Тому він позиціонується незалежно від значення float сусідніх елементів</p>
+    <hr>
+<div class="div1">float:left</div>
+<p class="p2">До цього абзацу застосовано властивість <span>clear: left</span>.<br>
+    Тому він позиціонується незалежно від значення float: left сусіднього елемента</p>
+    <hr>
+<div class="div2">float:right</div>
+<p class="p3">До цього абзацу застосовано властивість <span>clear: right</span>.<br>
+    Тому він позиціонується незалежно від значення float: right сусіднього елемента</p>
+
+
+</body>
+</html>
