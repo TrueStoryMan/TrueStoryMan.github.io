@@ -1,0 +1,205 @@
+html *, body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 140px;
+    background-color: green;
+    clear: both;
+}
+.logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.logo p {
+    position: relative;
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+    left: -10px;
+    margin: 0;
+}
+.contact {
+    float: right;
+}
+address, .number {
+    font-family: sans-serif;
+    font-style: unset;
+    font-weight: 500;
+    text-align: end;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: white;
+    font-size: 16px;
+}
+address:before {
+    content: "\2709";
+    font-size: 18px;
+    font-weight: bold;
+}
+.number:before {
+    content: "\260E";
+    font-weight: bold;
+}
+span {
+    color: white;
+    font-size: 18px;
+}
+nav {
+    clear: both;
+    position: relative;
+    clear: both;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    white-space: nowrap;
+}
+nav li {
+    display: inline;
+    font-size: 22px;
+    font-family: monospace;
+    color: white;
+    margin-right: 30px;
+}
+
+.intro {
+    height: 170px;
+    margin-top: 30px;
+}
+.intro p {
+    margin: 10px;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+    text-indent: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+section {
+    height: 700px;
+}
+section figure {
+    float: left;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: green;
+    width: 854px;
+    height: 520px;
+    caption-side: bottom;
+}
+section figcaption {
+    position: relative;
+    text-align: center;
+    quotes: "«" "»" "‹" "›";
+    color: white;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: oblique;
+}
+.first {
+    margin-top: 30px;
+} 
+aside {
+    float: left;
+    height: 480px;
+    width: 850px;
+    margin-top: 70px;
+    margin-left: 980px;
+}
+aside h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside p {
+    color: black;
+    font-size: 24px;
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.support {
+    padding: 10px;
+    background-color: #778d5c;
+    color: #fff;
+    overflow: hidden;
+}
+.support .title {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.support_title {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.line {
+    border-bottom: 1px solid;
+    width: 150px;
+    margin: 20px auto;
+}
+.support_wrap {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    overflow: hidden;
+}
+.support .block {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+.block img {
+    margin: 10px;
+}
+.support .support_wrap a {
+    color: #fff;
+    text-decoration: none;
+}
+.description {
+    font-size: 18px;
+}
+footer {
+    margin: 0px;
+    padding: 0px;
+    height: 132px;
+    background-color: green;
+    clear: both;
+}
+.end {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    list-style-type: circle;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.end li {
+    list-style-type: none;
+}
+.end li::before {
+    content: "\2713 ";
+}
+.copyright {
+    clear: both;
+    color: #dfdfdf;
+    text-align: end;
+    margin-right: 20px;
+}
