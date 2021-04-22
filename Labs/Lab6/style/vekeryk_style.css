@@ -6,8 +6,12 @@ header {
     margin: 0px;
     padding: 0px;
     height: 140px;
-    background-color: green;
     clear: both;
+}
+header, footer, main figure {
+    background-color: #63d471;
+    background-image: linear-gradient(45deg, #218d2e 40%, #43835f 100%);
+    
 }
 .logo {
     float: left;
@@ -24,6 +28,16 @@ header {
 }
 .contact {
     float: right;
+}
+input {
+    margin-top: 10px;
+    margin-right: 25px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    caret-color: #008000;
+    height: 20px;
+    padding-left: 5px;
 }
 address, .number {
     font-family: sans-serif;
@@ -53,6 +67,7 @@ nav {
     position: relative;
     clear: both;
     justify-content: center;
+    text-shadow: 5px 5px 12px black;
 }
 a {
     text-decoration: none;
@@ -70,14 +85,22 @@ nav li {
     color: white;
     margin-right: 30px;
 }
+nav li:hover {
+    text-decoration: underline white;
+    text-underline-position: under;
+}
 
 .intro {
+    margin: 0 auto;
+    width: 1000px;
     height: 170px;
     margin-top: 30px;
-    outline: #778d5c solid 10px;
+    border: black solid 2px;
+    outline: green solid 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .intro p {
-    margin: 10px;
+    margin-top: 15px;
     padding: 0;
     color: black;
     font-size: 24px;
@@ -94,10 +117,12 @@ section figure {
     position: absolute;
     margin-left: 50px;
     margin-top: 50px;
-    background-color: green;
     width: 854px;
     height: 520px;
     caption-side: bottom;
+    cursor: grab;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 section figcaption {
     position: relative;
@@ -108,6 +133,7 @@ section figcaption {
     font-family: Verdana;
     font-weight: bold;
     font-style: oblique;
+    text-shadow: 5px 5px 12px black;
 }
 .first {
     margin-top: 30px;
@@ -115,9 +141,11 @@ section figcaption {
 aside {
     float: left;
     height: 480px;
-    width: 850px;
+    width: 800px;
     margin-top: 70px;
     margin-left: 980px;
+    resize: horizontal;
+    overflow: auto;
 }
 aside h2 {
     text-align: center;
@@ -135,7 +163,8 @@ aside p {
 
 .support {
     padding: 10px;
-    background-color: #778d5c;
+    background-color: #63d471;
+    background-image: linear-gradient(325deg, #218d2e 40%, #43835f 100%);
     color: #fff;
     overflow: hidden;
 }
@@ -143,6 +172,7 @@ aside p {
     font-size: 32px;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 5px 5px 25px black;
 }
 .support_title {
     font-size: 32px;
@@ -163,9 +193,17 @@ p.line {
     float: left;
     text-align: center;
     width: 33%;
+    transition: .2s linear;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+.support .block:hover {
+    top: -8px;
+  }
 .block img {
     margin: 10px;
+    cursor: grab;
 }
 .support .support_wrap a {
     color: #fff;
@@ -173,12 +211,13 @@ p.line {
 }
 .description {
     font-size: 18px;
+    text-decoration: 1px underline white;
+    margin: 5px;
 }
 footer {
     margin: 0px;
     padding: 0px;
     height: 132px;
-    background-color: green;
     clear: both;
 }
 .end {
@@ -190,9 +229,12 @@ footer {
     margin-top: 10px;
     margin-left: 50px;
     margin-right: 100px;
+    text-shadow: 5px 5px 12px black;
+    cursor: help;
 }
 .end li {
     list-style-type: none;
+    cursor: alias;
 }
 .end li::before {
     content: "\2713 ";
@@ -202,4 +244,5 @@ footer {
     color: #dfdfdf;
     text-align: end;
     margin-right: 20px;
+    text-shadow: 5px 5px 12px black;
 }
