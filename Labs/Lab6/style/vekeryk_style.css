@@ -11,13 +11,20 @@ header {
 header, footer, main figure {
     background-color: #63d471;
     background-image: linear-gradient(45deg, #218d2e 40%, #43835f 100%);
-    
 }
 .logo {
     float: left;
     margin-top: 5px;
     margin-left: 20px;
 }
+.logo figure {
+    perspective: 100px;
+}
+.logo img {
+    margin-left: 6px;
+    transform: scale3d(1, 1, 2) rotate3d(1, 1.5, 0, 20deg);
+    padding: 2px;
+} 
 .logo p {
     position: relative;
     font-family: cursive;
@@ -160,7 +167,16 @@ aside p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+article:hover mark {
+    background: yellow;
+    border: 2px dashed black;
+}
+mark {
+    transition: background 1s ease-in-out 0.1s, border 0.3s linear;
+    border: 2px dashed white;
+    border-radius: 5px;
+    background: white;
+}
 .support {
     padding: 10px;
     background-color: #63d471;
@@ -169,12 +185,14 @@ aside p {
     overflow: hidden;
 }
 .support .title {
+    margin: 15px;
     font-size: 32px;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 5px 5px 25px black;
 }
 .support_title {
+    margin: 15px;
     font-size: 32px;
     text-align: center;
     text-transform: uppercase;
@@ -182,7 +200,7 @@ aside p {
 p.line {
     border-bottom: 1px solid;
     width: 150px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .support_wrap {
     max-width: 1100px;
@@ -193,16 +211,17 @@ p.line {
     float: left;
     text-align: center;
     width: 33%;
-    transition: .2s linear;
     position: relative;
     top: 0;
     left: 0;
 }
-.support .block:hover {
-    top: -8px;
-  }
+.support .block:hover img {
+    transform: matrix(-1, 0, 0, 1, 0, 0) translateY(-15px);
+    transform-origin: 50% 50%;
+}
 .block img {
     margin: 10px;
+    transition: transform .3s linear 0s;
     cursor: grab;
 }
 .support .support_wrap a {
@@ -231,6 +250,12 @@ footer {
     margin-right: 100px;
     text-shadow: 5px 5px 12px black;
     cursor: help;
+}
+.end p {
+    transform: matrix3d(0.683333, -0.091887, -0.59044, 0, 0.22022, 0.933333, 0.186887, 0, -0.623773, -0.52022, 0.583333, 0, 0, 0, 0, 1);
+    position: relative;
+    left: -20px;
+    top: -5px;
 }
 .end li {
     list-style-type: none;
