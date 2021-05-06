@@ -202,34 +202,40 @@ li {
 
 @media screen and (max-width: 480px) {
     .header {
+        width: 100%;
         display: flex;
     }
     .main {
         display: flex;
         flex-direction: column-reverse;
-        height: 190%;
+        height: 210%;
     }
     .logo {
         height: 50px;
-        width: 520px;
         margin-top: 10px;
         margin-left: 10px;
     }
     .logotext {
-        font-size: 42px;
+        font-size: 38px;
     }
-    div.top, div.content, div.right, div.left, .aside, .aside p {
+    .motto {
+        margin: 0;
+        right: 10px;
+    }
+    div.top, div.content, div.right, div.left {
         width: 100%;
+        margin-left: 5px;
+    }
+    .aside p {
+        width: 98%;
     }
     div.top {
         height: 15%;
     }
-    div.right {
-        margin-left: 0;
-    }
     .bottom {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     div.content {
         width: 400px;
