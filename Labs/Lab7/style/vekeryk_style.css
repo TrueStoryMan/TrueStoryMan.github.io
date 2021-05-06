@@ -229,6 +229,7 @@ li {
     }
     .logotext {
         font-size: 38px;
+        margin-top: 5px;
     }
     .motto {
         margin: 0;
@@ -252,9 +253,6 @@ li {
     }
     div.content {
         width: 400px;
-    }
-    .footer {
-        height: 150px;
     }
     .footer p, .footer span{
         font-size: 14px;
