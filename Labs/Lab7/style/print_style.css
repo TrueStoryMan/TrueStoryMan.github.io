@@ -1,0 +1,16 @@
+@media print {
+    * {
+        color: black;
+        text-shadow: none;
+        border: none;
+    }
+    .header, div.top, div.shorter, .footer {
+        background-color: black;
+    }
+    .logo {
+        background-color: white;
+    }
+    h3, h1{
+        font-style: normal;
+    }
+}

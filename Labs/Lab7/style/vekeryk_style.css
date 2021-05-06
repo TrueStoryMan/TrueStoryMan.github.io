@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Italic.ttf") format('truetype'); 
+    font-style: italic;
+    font-weight: normal;
+}
+
 html, body { 
     height: 100%; 
     width: 100%; 
@@ -113,6 +120,7 @@ span {
     position: relative;
     top: 10px;
     text-align: right;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bold;
     margin-right: 20px;
@@ -142,6 +150,7 @@ li {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bold;
     color: white;
@@ -201,6 +210,9 @@ li {
 }
 
 @media screen and (max-width: 480px) {
+    span {
+        font-size: 30px;
+    }
     .header {
         width: 100%;
         display: flex;
@@ -208,7 +220,7 @@ li {
     .main {
         display: flex;
         flex-direction: column-reverse;
-        height: 210%;
+        height: 200%;
     }
     .logo {
         height: 50px;
@@ -228,6 +240,7 @@ li {
     }
     .aside p {
         width: 98%;
+        margin: 5px;
     }
     div.top {
         height: 15%;
@@ -239,6 +252,9 @@ li {
     }
     div.content {
         width: 400px;
+    }
+    .footer {
+        height: 150px;
     }
     .footer p, .footer span{
         font-size: 14px;
