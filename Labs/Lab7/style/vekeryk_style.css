@@ -147,6 +147,7 @@ li {
     color: white;
     text-shadow: 3px 4px 4px black;
 } 
+
 @media screen and (max-width: 1280px) {
     .main {
         display: flex;
@@ -164,8 +165,7 @@ li {
     div.content {
         position: relative;
         margin-left: 0px;
-        left: 50%;
-        transform: translate(-50%);
+        justify-content: center;
         width: 910px;
         height: 65%;
     }
@@ -197,5 +197,44 @@ li {
     }
     .footer p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+    }
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 190%;
+    }
+    .logo {
+        height: 50px;
+        width: 520px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .logotext {
+        font-size: 42px;
+    }
+    div.top, div.content, div.right, div.left, .aside, .aside p {
+        width: 100%;
+    }
+    div.top {
+        height: 15%;
+    }
+    div.right {
+        margin-left: 0;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    div.content {
+        width: 400px;
+    }
+    .footer p, .footer span{
+        font-size: 14px;
     }
 }
