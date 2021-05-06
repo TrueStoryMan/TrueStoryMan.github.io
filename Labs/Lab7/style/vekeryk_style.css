@@ -235,6 +235,9 @@ li {
         margin: 0;
         right: 10px;
     }
+    div.left {
+        height: 450px;
+    }
     div.top, div.content, div.right, div.left {
         width: 100%;
         margin-left: 5px;
