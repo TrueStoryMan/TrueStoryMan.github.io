@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/vekeryk_style.css">
+        <title>Forms</title>
+    </head>
+<body>
+    <main>
+        <h1>ФОРМА ВОЛОНТЕРА</h1>
+        <p></p>
+        <form>
+            <div class="topper">
+                <div>
+                    <label for="first-name">Ім'я</label><br>
+                    <input class="text_input"id="first-name" type="text" name="first-name" placeholder="Введіть ім'я" required><br>
+                </div>
+                <div>
+                    <label for="last-name">Прізвище</label><br>
+                    <input class="text_input" id="last-name" type="text" name="last-name" placeholder="Введіть прізвище"><br>
+                </div>
+                <div>
+                    <label for="mail">Пошта</label><br>
+                    <input class="text_input" id="mail" type="email" name="email" placeholder="Введіть email"><br>
+                </div>
+                <div>
+                    <label for="password">Пароль</label><br>
+                    <input class="text_input" id="password" type="password" name="password" placeholder="Введіть пароль">
+                </div>
+            </div>
+            <textarea name="review" placeholder="Як ви про нас дізналися?"></textarea>
+
+            <fieldset>
+                <label>Про себе:</label><br>
+                <input class="radio" type="radio" value="male" name="sex" checked> <label>Чоловік</label>
+                <input class="radio" type="radio" value="female" name="sex"> <label>Жінка </label><br>
+
+                <input class="check_box" type="checkbox"><label> Мені менше 18</label>
+                <br>
+                <input class="check_box" type="checkbox"><label> Навчаюсь</label>
+                <br>
+                <input class="check_box" type="checkbox"><label> Працюю</label>
+                <br>
+                <input class="check_box" type="checkbox"><label> Маю домашнього улюбленця</label>
+                <br>
+                <input class="check_box" type="checkbox"><label> Маю досвід волонтерства</label>
+                <br><br>
+                <p>Наскільки вам сподобався сайт?<br>cтатистичне опитування</p>
+                <input type="range"><br>
+            </fieldset>
+            <div class="selection">
+                <select name="location">
+                    <option disabled selected>Оберіть одне з наших міст</option>
+                    <optgroup label = "Івано-Франківська область">
+                        <option>Рогатин</option>
+                        <option>Долина</option>
+                    </optgroup>
+                    <optgroup label = "Київська область">
+                        <option>Київ</option>
+                        <option>Фастів</option>
+                    </optgroup>
+                    <optgroup label = "Херсонська область">
+                        <option>Херсон</option>
+                        <option>Скадовськ</option>
+                    </optgroup>
+                </select>
+            </div>
+            <button>
+                <input type="submit" value="Надіслати" onClick='alert("Форму надіслано!")'>
+            </button>
+            <button>
+                <input type="reset" value="Очистити форму">
+            </button>
+        </form>
+        <div class="links">
+            <p></p>
+            <ul>
+                <li><a target="_blank" href="https://memesfor.me/Labs/Lab6/vekeryk_lab6.html">Про нас</a></li>
+                <li><a target="_blank" href="https://uk.wikipedia.org/wiki/FAQ">Часті запитання</a></li>
+                <li><a target="_blank" href="https://github.com/TrueStoryMan/TrueStoryMan.github.io">Ресурс сайту</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
