@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/vekeryk_style.css">
+    <title>Зоомагазин PetHouse</title>
+</head>
+<body>
+    <header id="start">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="#">PetHouse</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Про нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Оплата</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Відгуки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Програма лояльності</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Розділи
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Собакам</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Котам</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Птахам</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Рибкам</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Пошук товарів" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Знайти</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-6"><h1>Даруємо улюбленцям щастя</h1></div>
+                <div class="col-4">
+                    <img class="w-100" src="https://www.flypets.co.uk/images/banner-main-img.png" alt="happy-do">
+                </div>
+                <div class="col-2">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Затримки доставки</h5>
+                        <small>місяць тому</small>
+                      </div>
+                      <p class="mb-1">Через карантин поставки можуть затримуватися...</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Оновлений асортимент</h5>
+                        <small class="text-muted">3 дні тому</small>
+                      </div>
+                      <p class="mb-1">Ми оновили асортимент товарів для пернатих улюбленців!</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Недільні знижки</h5>
+                        <small class="text-muted">8 годин тому</small>
+                      </div>
+                      <p class="mb-1">При оформленні замовлення цієї неділі знижки до 25%</p>
+                    </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-xxl">
+            <h2>Популярніші товари</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://4lapy.ru/resize/800x800/upload/iblock/bed/bed5548f3ea95262443e2721d45b8d8b.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Переноска для собак</h5>
+                                  <p class="card-text">Дозволяє брати з собою друзів в короткі поїздки і бути впевненими, що вони будуть пересуватися в повному комфорті.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                          <div class="card w-100">
+                              <img src="https://4lapy.ru/resize/800x800/upload/iblock/5f1/5f173c27798c2025ff9f975038f9c887.jpg" class="card-img-top">
+                              <div class="card-body">
+                                <h5 class="card-title">Миски складні 2 шт.</h5>
+                                <p class="card-text">Складні миски дозволяють економити місце, поки ними не користуються. А при використанні вміщають багато корму.</p>
+                                <button type="button" class="btn btn-secondary">До корзини</button>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://4lapy.ru/resize/800x800/upload/iblock/e69/e69d18ac8451691b955b82b49bfb72c5.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Сумка-переноска</h5>
+                                  <p class="card-text">Нова весняно-літня колекція. Сумка-переноска - це зручний і надійний аксесуар для перевезення невеликих тварин.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://4lapy.ru/resize/800x800/upload/iblock/38b/38bdc1a0362f08f32f1ea0e44fe57398.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Акваріум-панорама</h5>
+                                  <p class="card-text">Виріб виготовлено з міцного скла товщиною 4 мм. Скошені кути дозволять помістити виріб в будь-який простір.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://4lapy.ru/resize/800x800/upload/iblock/5ef/5efae71d94851f7cc9bd31969363296a.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Пуходерка</h5>
+                                  <p class="card-text">Пуходерка - відмінний інструмент для прочісування і видалення зайвого пуху у домашніх тварин.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://4lapy.ru/resize/800x800/upload/iblock/04e/04e4a778047743bf1f1a95fcc92023fc.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Консерви для котів</h5>
+                                  <p class="card-text">Вітаміни та поживні елементи допоможуть підвищать здоров'я імунітету і додадуть вовни м'якість і шовковистість.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                          <div class="card w-100">
+                              <img src="https://images.ua.prom.st/724278140_w640_h640_flexi-comfort-new.jpg" class="card-img-top">
+                              <div class="card-body">
+                                <h5 class="card-title">Повідець-рулетка</h5>
+                                <p class="card-text">Flexi один з кращих виробників рулеток в світі. Додатково можна встановити мультибокс і ліхтарик.</p>
+                                <button type="button" class="btn btn-secondary">До корзини</button>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://irecommend.ru/sites/default/files/product-images/1009272/wIuc9sOz2VCTKHsILeXmog.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Намордник</h5>
+                                  <p class="card-text">Намордник для собаки годиться для відвідування ветеринара, прогулянок в людних місцях, перевезень в громадському транспорті.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://ae01.alicdn.com/kf/HTB15RaFTxjaK1RjSZKzq6xVwXXaU/-.jpg_220x220.jpg_Q70.jpg" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Іграшка-пищалка</h5>
+                                  <p class="card-text">Латексна іграшка у вигляді півня підходить для активних ігор собаки вдома і на вулиці. Виготовлено з натуральних матеріалів</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://www.zootovary.com/getimage/products/3982/Aquael_FZN2.jpg&w=421&h=421" class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Акваріумний фільтр</h5>
+                                  <p class="card-text">Завдяки високій продуктивності, фільтри інтенсивно очищають воду в акваріумах, не займаючи в них багато місця.</p>
+                                  <button type="button" class="btn btn-secondary">До корзини</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <section>
+      <div class="container-xxl">
+        <h2>Замовити товари з корзини</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label" aria-label="First name">Ім'я одержувача</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col-md-6">
+            <label class="form-label" aria-label="Last name">Прізвище одержувача</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Адреса</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="вулиця, номер будинку та квартири">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Номер телефону</label>
+            <input type="text" class="form-control" placeholder="+380 (ХХ) ХХХ-ХХ-ХХ">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Місто</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Область</label>
+            <select id="inputState" class="form-select">
+              <option selected>Обрати...</option>
+              <option>Івано-Франківська</option>
+              <option>Львівська</option>
+              <option>Чернівецька</option>
+              <option>Тернопільська</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Поштовий індекс</label>
+            <input type="text" class="form-control" id="input">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Запам'ятати мене
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-success">Замовити</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="blog-footer">
+      <div class="container-xxl">
+          <p>Сайт розроблено за допомогою <a href="https://getbootstrap.com/">Bootstrap</a></p>
+          <p>
+            <a href="#start">Повернутися на початок</a>
+          </p>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
