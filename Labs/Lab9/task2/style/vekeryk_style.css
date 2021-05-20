@@ -18,7 +18,8 @@ section {
     width: 20px;
 }
 .carousel-inner img {
-    height: 180px;
+    min-height: 240px;
+    min-width: 200px;
 }
 footer {
     height: 80px;
