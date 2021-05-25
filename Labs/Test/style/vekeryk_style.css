@@ -12,21 +12,21 @@
 .center {
     text-align: center;
 }
-.navigation {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav {
+nav ul {
     display: flex;
     list-style-type: none;
 }
-.nav>li {
+li {
     position: relative;
 }
-.nav>li>a {
+a {
     text-decoration: none;
 }
-.footer {
+footer {
     text-align: center;
 }
