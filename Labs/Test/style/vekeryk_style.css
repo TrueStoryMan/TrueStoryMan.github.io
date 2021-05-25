@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.center {
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+.nav>li {
+    position: relative;
+}
+.nav>li>a {
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+}
