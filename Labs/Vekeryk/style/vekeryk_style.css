@@ -106,7 +106,7 @@ a {
     font-size: 14pt;
     line-height: 25pt;
     color: #95a5a6;
-    width: 800px;
+    width: 75%;
     margin: auto;
 }
 .cards {
@@ -143,10 +143,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 770px;
+    width: 90%;
 }
 form {
-    width: 740px;
+    width: 75%;
+    margin: 0 auto;
 }
 fieldset {
     border: none;
@@ -154,7 +155,7 @@ fieldset {
     justify-content: space-between;
     margin-top: 58px;
     margin-bottom: 28px;
-    width: 840px;
+    width: 100%;
 }
 input, textarea {
     font-family: 'Rokkitt', serif;
@@ -162,15 +163,15 @@ input, textarea {
     background-color: #e4e8e8;
     border: none;
     padding: 30px;
-    color: #cecece;
+    color: #707070;
     font-weight: bolder;
 }
 input {
-    width: 300px;
+    width: calc(45% - 60px);
     height: 10px;
 }
 textarea {
-    width: 740px;
+    width: calc(100% - 60px);
     height: 220px;
     resize: none;
 }
@@ -209,4 +210,144 @@ footer {
 }
 .author::before {
     content: "\00A9";
+}
+
+@media screen and (max-width: 880px) {
+    .cards .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 50%;
+    }
+    .card p {
+        text-align: center;
+    }
+    .card h2 {
+        color: #9b59b6;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 650px) {
+    header {
+        background-image: none;
+        background-color: #e4c0c0;
+        background-position: center;
+        height: 350px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 38px;
+        font-size: 14pt;
+        color: white;
+    }
+    li {
+        margin-left: 22px;
+    }
+
+    header h1 {
+        font-size: 40pt;
+        margin-top: 50px;
+    }
+    header .frontend {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20pt;
+        margin-top: 12px;
+    }
+    p.line {
+        border-bottom: 2px solid white;
+        width: 50%;
+        margin-top: 24px;
+        margin: 0px auto;
+    }
+    .ahead {
+        top: 325px;
+    }
+
+    .bio h1 {
+        margin-top: 82px;
+        margin-bottom: 36px;
+        font-size: 26pt;
+    }
+    .bio p {
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+    }
+    .cards .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 90%;
+    }
+    .card p {
+        text-align: center;
+        font-size: 20px;
+    }
+    .card h2 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .feedback {
+        height: 450px;
+    }
+    form {
+        width: 98%;
+    }
+    fieldset {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        width: 100%;
+    }
+    input, textarea {
+        font-family: 'Rokkitt', serif;
+        font-size: 20px;
+        background-color: #e4e8e8;
+        border: none;
+        padding: 22px;
+        color: #707070;
+        font-weight: bolder;
+    }
+    input {
+        width: calc(45% - 40px);
+        height: 20px;
+    }
+    textarea {
+        width: calc(100% - 40px);
+        height: 150px;
+    }
+
+    .contact a {
+        border: 6px solid #c49dd4;
+        background-color: #f6f6f6;
+        height: 70px;
+        width: 70px;
+        top: -35px;
+    }
+    .contact img{
+        position: relative;
+        top: 15px;
+    }
+    
+    footer {
+        height: 280px;
+    }
+    .white {
+        height: 100px;
+    }
+    .end {
+        margin-top: 52px;
+    }
 }
